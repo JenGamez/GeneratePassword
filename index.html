@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+​
+<body>
+​
+  <nav class="navbar navbar-dark" style="background-color: 	#B22222">
+    <a class="navbar-brand" href="#">Password Generator</a>
+  </nav>
+​
+  <div class="container">
+​
+    <div class="row">
+​
+      <div class="col-lg col-sm-12 max-auto">
+​
+​
+       Choose the length of your password.  Must be between 8-128 characters<input type="number" id="charNum" value="12" min="8" max="128"><br />
+​
+       Number
+        <input type="checkbox" name="num"><br>
+​
+       Symbol   
+       <input type="checkbox" name="sym"><br>
+​
+       Uppercase Letters  
+       <input type="checkbox" name="up-ltr"><br>
+​
+       Lowercase Letters  
+       <input type="checkbox" name="low-ltr"><br>
+        
+       
+        <button id="submit" onclick="password()">Submit</button><br>
+        <input type="text" id="yourPW">
+​
+​
+​
+​
+​
+      </div>
+    </div>
+​
+  </div>
+​
+​
+​
+  <script src="script.js"></script>
+</body>
+​
+</html>
+
+
+
